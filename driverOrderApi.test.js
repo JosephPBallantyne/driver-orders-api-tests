@@ -1,6 +1,7 @@
+require('dotenv').config();
 const axios = require('axios');
 
-const url = 'http://localhost:51544';
+const url = process.env.API_URL;
 
 const STATUS = {
   OK: 200,
