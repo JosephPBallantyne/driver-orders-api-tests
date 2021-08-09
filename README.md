@@ -5,6 +5,7 @@ A set of API tests for a driver order and transport service.
 ### Setup
 
 Clone the repository and from the directory run `npm install`  
+Create a .env file and update according to the template  
 To run the tests, use `npm run test`  
 Jest options can be added after `--`, e.g. to run only 'ping' tests use `npm run test -- -t=ping`
 
